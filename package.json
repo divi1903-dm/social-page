@@ -1,0 +1,20 @@
+{
+  "name": "taskplanet-social-assignment",
+  "version": "1.0.0",
+  "description": "Full-Stack TaskPlanet-inspired Social Feed Web Application",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.13.5",
+    "google-auth-library": "^11.0.2"
+  },
+  "main": "start.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
